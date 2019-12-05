@@ -21,6 +21,7 @@
 		363DAC212394E7CA004ACF15 /* DarwinNotifyCenter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 363DAC192394E7CA004ACF15 /* DarwinNotifyCenter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		363DAC272394E7DA004ACF15 /* DarwinNotifyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363DAC262394E7DA004ACF15 /* DarwinNotifyCenter.swift */; };
 		363DAC282394E80B004ACF15 /* DarwinNotifyCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363DAC192394E7CA004ACF15 /* DarwinNotifyCenter.framework */; };
+		363DAC4223992717004ACF15 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 363DAC4123992717004ACF15 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		363DAC1B2394E7CA004ACF15 /* DarwinNotifyCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarwinNotifyCenter.h; sourceTree = "<group>"; };
 		363DAC1C2394E7CA004ACF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		363DAC262394E7DA004ACF15 /* DarwinNotifyCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarwinNotifyCenter.swift; sourceTree = "<group>"; };
+		363DAC4123992717004ACF15 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		363DABDE2394E6A3004ACF15 = {
 			isa = PBXGroup;
 			children = (
+				363DAC4123992717004ACF15 /* README.md */,
 				363DABE92394E6A3004ACF15 /* DarwinNotify */,
 				363DAC052394E6D1004ACF15 /* TodayExtension */,
 				363DAC1A2394E7CA004ACF15 /* DarwinNotifyCenter */,
@@ -310,6 +313,7 @@
 			files = (
 				363DABF52394E6A4004ACF15 /* LaunchScreen.storyboard in Resources */,
 				363DABF22394E6A4004ACF15 /* Assets.xcassets in Resources */,
+				363DAC4223992717004ACF15 /* README.md in Resources */,
 				363DABF02394E6A3004ACF15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
